@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 4%;
+    --foreground: 38 30% 90%;
+    --card: 0 0% 6%;
+    --card-foreground: 38 30% 90%;
+    --popover: 0 0% 6%;
+    --popover-foreground: 38 30% 90%;
+    --primary: 39 40% 62%;
+    --primary-foreground: 0 0% 4%;
+    --secondary: 0 0% 8%;
+    --secondary-foreground: 38 15% 70%;
+    --muted: 0 0% 12%;
+    --muted-foreground: 38 10% 55%;
+    --accent: 39 35% 68%;
+    --accent-foreground: 0 0% 4%;
+    --destructive: 0 55% 45%;
+    --destructive-foreground: 0 0% 95%;
+    --border: 38 8% 18%;
+    --input: 38 8% 18%;
+    --ring: 39 40% 62%;
+    --radius: 0.5rem;
+    --font-sans: 'Inter';
+    --font-display: 'Playfair Display';
+  }
+
+  .dark {
+    --background: 0 0% 4%;
+    --foreground: 38 30% 90%;
+    --card: 0 0% 6%;
+    --card-foreground: 38 30% 90%;
+    --popover: 0 0% 6%;
+    --popover-foreground: 38 30% 90%;
+    --primary: 39 40% 62%;
+    --primary-foreground: 0 0% 4%;
+    --secondary: 0 0% 8%;
+    --secondary-foreground: 38 15% 70%;
+    --muted: 0 0% 12%;
+    --muted-foreground: 38 10% 55%;
+    --accent: 39 35% 68%;
+    --accent-foreground: 0 0% 4%;
+    --destructive: 0 55% 45%;
+    --destructive-foreground: 0 0% 95%;
+    --border: 38 8% 18%;
+    --input: 38 8% 18%;
+    --ring: 39 40% 62%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+}

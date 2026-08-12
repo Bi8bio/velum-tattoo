@@ -1,0 +1,9 @@
+{
+  "icon": "ph:needle-duotone",
+  "primaryColor": "#C2A660",
+  "backgroundColor": "#0A0A0A",
+  "accentColor": "#D4AF37",
+  "heroTitle": "Velum Tattoo",
+  "layoutStyle": "hero",
+  "previewSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 240'><rect width='400' height='240' fill='#0A0A0A'/><rect x='0' y='0' width='400' height='60' fill='#111'/><text x='200' y='38' text-anchor='middle' font-family='serif' font-size='20' font-weight='700' fill='#C2A660'>Velum Tattoo</text><circle cx='30' cy='30' r='10' fill='none' stroke='#C2A660' stroke-width='1'/><rect x='40' y='80' width='320' height='100' rx='2' fill='#111' stroke='#222'/><text x='200' y='112' text-anchor='middle' font-family='serif' font-size='15' font-weight='600' fill='#eee'>Velum Tattoo</text><text x='200' y='132' text-anchor='middle' font-family='sans-serif' font-size='10' fill='#999'>Your story, permanently told.</text><rect x='140' y='146' width='120' height='22' rx='1' fill='#C2A660'/></svg>"
+}
